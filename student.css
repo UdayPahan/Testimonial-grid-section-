@@ -1,0 +1,14 @@
+.student{
+   display:flex;
+   align-items: center;
+   gap:1rem;
+}
+
+.student img{
+   width:3rem;
+   border-radius: 50%;
+}
+
+.name p{
+   margin-bottom:0.5rem;
+}

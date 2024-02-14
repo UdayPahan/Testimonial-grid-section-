@@ -3,10 +3,10 @@
    position: relative ;
 }
 
-.main-container :first-child svg{
+.main-container svg{
    position:absolute;
-   opacity:0.5;
+   opacity:0.2;
    right:3rem;
-   top:0;
-   z-index:1;
+   top:1rem;
+   z-index:0;
 }

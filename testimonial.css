@@ -2,15 +2,17 @@
    padding:2.4rem;
    margin:1.5rem 0;
    border-radius: 10px;
-   z-index: 1;
+   z-index:-1;
 }
+
 
 .testimonial > *{
    margin:1rem 0;
-   z-index:9999;
 }
 
-
+.testimonial  h2{
+ z-index:999;
+}
 .testimonial:nth-of-type(1) {
    background-color: var(--primary-moderate-violet);
 

@@ -3,10 +3,10 @@
    position: relative ;
 }
 
-.main-container svg{
+svg{
    position:absolute;
-   opacity:0.2;
+   opacity:0.8;
    right:3rem;
    top:1rem;
-   z-index:0;
+   z-index:10;
 }

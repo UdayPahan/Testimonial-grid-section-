@@ -6,13 +6,11 @@
 }
 
 
-.testimonial > *{
+.testimonial .student,.testimonial h2{
    margin:1rem 0;
+   z-index:50;
 }
 
-.testimonial  h2{
- z-index:999;
-}
 .testimonial:nth-of-type(1) {
    background-color: var(--primary-moderate-violet);
 

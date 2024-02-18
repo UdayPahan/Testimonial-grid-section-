@@ -74,15 +74,18 @@
       margin-top:4rem;
    }
 }
-
-.testimonial:nth-of-type(1),.testimonial:nth-of-type(2),.testimonial:nth-of-type(4){
-   color:var(--primary-white);
+.testimonial:nth-of-type(1) h2,.testimonial:nth-of-type(2) h2,.testimonial:nth-of-type(4) h2{
+   color:var(--neutral-light-grayish-blue);
 }
 
-.testimonial:nth-of-type(3),.testimonial:nth-of-type(5) h2{
+.testimonial:nth-of-type(1) p,.testimonial:nth-of-type(2) p,.testimonial:nth-of-type(4) p{
+   color:var(--neutral-light-gray);
+}
+
+.testimonial:nth-of-type(3) h2,.testimonial:nth-of-type(5) h2{
    color:var(--primary-very-dark-blackish-blue);
 }
-.testimonial:nth-of-type(3),.testimonial:nth-of-type(5) p{
+.testimonial:nth-of-type(3) p,.testimonial:nth-of-type(5) p{
    color:var(--primary-very-dark-grayish-blue);
 }
 

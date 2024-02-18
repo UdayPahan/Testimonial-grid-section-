@@ -1,12 +1,18 @@
 .main-container{
-   margin:4rem;
+   margin:4rem 2rem;
    position: relative ;
 }
 
-svg{
-   position:absolute;
-   opacity:0.8;
-   right:3rem;
-   top:1rem;
-   z-index:10;
+
+
+@media (min-width:1440px){
+
+   .main-container{
+      max-width:80%;
+      display: grid;
+      gap:2rem;
+      margin-inline: auto;
+      grid-template-rows: repeat(2,1fr) ;
+      grid-template-columns: repeat(4,1fr);   
+   }
 }
